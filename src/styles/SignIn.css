@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 404px;
+}
+
+.inputs h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.inputs input {
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    color: #D9D9D9;
+    padding: 9px 10px;
+    margin-bottom: 20px;
+}
+
+#h1 {
+    width: 275px;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 62px 0px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+}
+
+.check p {
+    font-size: 9px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#singbtn {
+    width: 404px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #3A5B22;
+    padding: 10px 0px;
+    margin: 45px 0px;
+    font-weight: 600;
+}
+
+.orhr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.orhr hr {
+    width: 190px;
+    height: 0px;
+}
+
+.singWith {
+    display: flex;
+}
+
+.singWith button img {
+    margin-right: 10px;
+}
+
+.singWith button {
+    display: flex;
+    align-items: center;
+    padding: 5px 24px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    margin-right: 23px;
+    justify-content: space-between;
+}
+
+.bgImg {
+    margin-right: -225px;
+}
+
+#h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 113px;
+    margin-top: 25px;
+}
+
+#h2 span {
+    color: #0F3DDE;
+    margin-left: 5px;
+}
