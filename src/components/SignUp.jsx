@@ -1,4 +1,4 @@
-import "../styles/SignUp.css";
+import "../styles/SignUp.module.css";
 import Image from "next/image";
 function SingUp() {
   return (

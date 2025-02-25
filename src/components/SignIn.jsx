@@ -1,4 +1,4 @@
-import "../styles/SignIn.css";
+import "../styles/SignIn.module.css";
 import Image from "next/image";
 
 function SignIn() {
