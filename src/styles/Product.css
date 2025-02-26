@@ -1,0 +1,29 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+
+#text {
+    font-size: 30px;
+    width: 700px;
+    margin: 10px 0px;
+}
+
+.product_title {
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+#text2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#product_span {
+    font-size: 30px;
+    font-weight: 700;
+}
