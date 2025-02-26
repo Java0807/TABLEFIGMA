@@ -1,0 +1,61 @@
+.main {
+    padding: 25px;
+    min-height: 100vh;
+}
+
+.products {
+    margin-top: 30px;
+
+}
+
+.product {
+    background-color: rgb(240 240 240);
+    border-radius: 8px;
+    padding: 28px 36px;
+}
+
+.card {
+    background-color: rgb(240 240 240);
+    border-radius: 8px;
+    padding: 28px 36px;
+}
+
+.buttons button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 0px 5px;
+}
+
+.buttons button img {
+    width: 100%;
+}
+
+.card-btn,
+.full-btn {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid coral;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.card-btn:active,
+.full-btn:active {
+    background-color: coral;
+
+}
+
+.sortirovka p {
+    font-size: 25px;
+}
+
+.sortirovka {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main h1 {
+    text-align: center;
+}

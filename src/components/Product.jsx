@@ -1,6 +1,7 @@
 import React from "react";
-import styles from "./Product.module.css";
 import Slider from "./slider/Slider";
+import { data } from "../pages/data";
+import { useState } from "react";
 function Product(props) {
   const { product, handleLike, handleBasket } = props;
   const {
@@ -14,7 +15,7 @@ function Product(props) {
     toBasket,
   } = product;
   // conditional rendering
-
+  const [products, setProducts] = useState(data);
   return (
     <div
       className="product"
